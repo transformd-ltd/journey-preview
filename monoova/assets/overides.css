@@ -1,0 +1,11 @@
+button, [type=button], [type=reset] {
+    cursor: pointer;
+    -webkit-appearance: button;
+    border-width: 1px !important;
+    border-color: inherit !important;
+    border-style: solid !important;
+}
+
+/**:not(button):not([type="button"]) {*/
+/*  border: unset;*/
+/*}*/
